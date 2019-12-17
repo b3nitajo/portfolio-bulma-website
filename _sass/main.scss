@@ -5,7 +5,7 @@
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
 
-/*
+
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
@@ -18,12 +18,14 @@ $pink-invert: #fff;
 // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
 
+$red: #990033;
+$navbar-dropdown-background-color: black;
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $pink;
+$primary: $red;
 $primary-invert: $pink-invert;
 
 // 4. Import the rest of Bulma
-*/
+
 
 @import "../node_modules/bulma/bulma";

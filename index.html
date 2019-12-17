@@ -4,10 +4,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
+    <title>Benita Jones Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+      <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="">
+              <img src="images/nav-logo.png" width="112" height="28">
+            </a>
+        
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item">
+                Home
+              </a>
+        
+              <a class="navbar-item">
+                About
+              </a>
+        
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link is-arrowless">
+                  Portfolio
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    Graphic Design
+                  </a>
+                  <a class="navbar-item">
+                    Web Development
+                  </a>
+                </div>
+              </div>
+            </div>       
+            <div class="navbar-end">
+            </div>
+          </div>
+        </nav>
     <section class="hero is-medium is-primary">
       <div class="hero-body">
         <div class="container">
