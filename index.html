@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Benita Jones Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+    </style>
   </head>
   <body>
       <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+          <a class="navbar-item spacer" href=""> </a>
           <div class="navbar-brand">
-            <a class="navbar-item" href="">
+            <a class="navbar-item logo" href="">
               <img src="images/nav-logo.png" width="112" height="28">
             </a>
         
@@ -21,48 +25,58 @@
             </a>
           </div>
         
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
+          <div id="topnav-menu" class="navbar-menu">
+              <div class="navbar-end">
+              <a class="navbar-item is-tab is-active" href="">
                 Home
               </a>
-        
-              <a class="navbar-item">
+              <a class="navbar-item" href="">
                 About
               </a>
-        
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                  Portfolio
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    Graphic Design
-                  </a>
-                  <a class="navbar-item">
-                    Web Development
-                  </a>
-                </div>
-              </div>
+              <a class="navbar-item" href="">
+                Portfolio
+              </a>
+              <a class="navbar-item" href="">
+                Contact
+              </a>
+              <a class="navbar-item spacer" href=""> </a>
             </div>       
-            <div class="navbar-end">
             </div>
           </div>
         </nav>
-    <section class="hero is-medium is-primary">
+        <div class="columns">
+        <div class="column is-full"> 
+        <table class="table is-bordered page-header">
+            <tbody>
+              <thead>
+              <tr>
+                <th>
+                  CULTIVATING CRAFT
+                </th>
+              </tr>
+            </thead>
+            </tbody><!-- Your table content -->
+          </table>
+        </div>
+      </div>
+    <section class="hero is-medium is-white">
+        
       <div class="hero-body">
         <div class="container">
           <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-              <h1 class="title is-2 is-spaced">
-                Hello Benita!
-              </h1>
-              <h2 class="subtitle is-4">
-                  Congratulations! You're running the <strong>Bulma start</strong> project.
+            <div class="column is-half">
+              <div class="box">
+                <div class="content">
+                  <h1 class="title is-2 is-spaced">
+                    Hello Benita!
+                  </h1>
+                  <h2 class="subtitle is-4">
+                      Congratulations! You're running the <strong>Bulma start</strong> project.
                   <br>
                   It includes everything you need to <strong>build your own website</strong> with Bulma.
               </h2>
+            </div>
+          </div>
             </div>
           </div>
         </div>
