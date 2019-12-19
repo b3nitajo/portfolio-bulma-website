@@ -291,7 +291,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif; }
 
 code,
 pre {
@@ -834,13 +834,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -1147,10 +1147,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   position: relative !important; }
 
 .box {
-  background-color: #669933;
+  background-color: black;
   border-radius: 1px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: white;
   display: block;
   padding: 1.25rem; }
 
@@ -1161,10 +1161,10 @@ a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #669933; }
 
 .button {
-  background-color: white;
+  background-color: #669933;
   border-color: #dbdbdb;
   border-width: 1px;
-  color: #363636;
+  color: white;
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.375em - 1px);

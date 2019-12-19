@@ -17,8 +17,8 @@ $pink: #ff8080;
 $pink-invert: #fff;
 $green: #669933;
 // Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
-
+$family-sans-serif: "Oswald", "Helvetica", "Arial", sans-serif;
+$is-family-secondary: "Arial", sans-serif;
 
 
 //Measurements
@@ -28,14 +28,18 @@ $navbar-item-padding: 35px;
 // Use the new pink as the primary color
 $primary: $red;
 $link: $green;
+$button-background-color: $green;
+$button-color: $white;
 $primary-invert: $pink-invert;
 $navbar-item-hover-background-color: $green;
-$box-background-color: $green;
+$box-background-color: black;
+$box-color: white;
 $box-radius: 1px;
 $table-cell-border: 1px solid;
 $table-border-color: black;
 $page-header: 'Oswald', sans-serif;
 $s-static: 'Oswald', sans-serif;
+$home-title: "Arial", sans-serif;
 // 4. Import the rest of Bulma
 
 
