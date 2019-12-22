@@ -2,6 +2,7 @@
 
 // Customization
 
+
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
 
@@ -30,6 +31,7 @@ $primary: $red;
 $link: $green;
 $button-background-color: $green;
 $button-color: $white;
+
 $primary-invert: $pink-invert;
 $navbar-item-hover-background-color: $green;
 $box-background-color: black;
@@ -40,6 +42,9 @@ $table-border-color: black;
 $page-header: 'Oswald', sans-serif;
 $s-static: 'Oswald', sans-serif;
 $home-title: "Arial", sans-serif;
+
+$button-hover-background-color: $green;
+
 // 4. Import the rest of Bulma
 
 

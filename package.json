@@ -1,4 +1,4 @@
-{ 
+{
   "name": "portfolio-bulma-website",
   "description": "Showcase of portfolio and cultivating craft organization",
   "main": "test.js",
@@ -64,5 +64,6 @@
     "bulma",
     "css",
     "start"
-  ]
+  ],
+  "dependencies": {}
 }
