@@ -15,9 +15,9 @@
         font-family: "Oswald";
         text-transform: uppercase;
         font-size: 2em;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
         overflow: hidden;
-        background: linear-gradient(90deg, #000, rgb(169, 248, 79), #000);
+        background: linear-gradient(-90deg, #000, rgb(169, 248, 79), #000);
         background-repeat: no-repeat;
         background-size: 80%;
         animation: animate 10s linear infinite;
@@ -37,26 +37,35 @@
 
   </head>
   <body>
-      <section class="hero is-black is-fullheight">   
+        <section class="hero is-black is-fullheight">   
         <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-        <div class="container has-text-centered">
-            <img src="images/nav-logo.png" alt="Logo">
-            <h1 class="title welcome-header">
-            WELCOME TO THE CRAFT
-            </h1>
-        </div>
-        </div> 
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-            <div class="container has-text-centered">       
-                <a class="button is-green is-hoverable has-text-white" href="home.html">
-                    ENTER
-                </a>            
+            <div class="hero-body is-fullwidth">
+                <div class="container has-text-centered">
+                    <div class="columns">
+                        <div class="column"> 
+                            <img src="images/nav-logo.png" alt="Logo">
+                            <h1 class="title welcome-header">
+                            WELCOME TO THE CRAFT
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <a class="button is-green is-hoverable has-text-white" href="home.html">
+                                ENTER
+                            </a> 
+                        </div>
+                    </div>
+                </div>      
+            </div> 
+            <!-- Hero footer: will stick at the bottom -->
+            <div class="hero-foot">
+                <nav class="tabs is-boxed is-fullwidth">
+                    <div class="container has-text-centered">       
+                        <p>CULTIVATING-CRAFT.COM</p>          
+                    </div>
+                </nav>
             </div>
-        </nav>
-        </div>
         </section>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js "></script>
         <script type="text/javascript" src="lib/main.js"></script>
