@@ -27,7 +27,8 @@ $is-family-secondary: "Arial", sans-serif;
 $navbar-item-padding: 35px;
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $red;
+$primary: $green;
+$secondary: $red;
 $link: $green;
 $button-background-color: $green;
 $button-color: $white;
@@ -35,10 +36,14 @@ $button-color: $white;
 $primary-invert: $pink-invert;
 $navbar-item-hover-background-color: $green;
 $box-background-color: black;
+$portfolio: $red;
 $box-color: white;
 $box-radius: 1px;
 $table-cell-border: 1px solid;
-$table-border-color: black;
+$table-border-color: white;
+$table-color: black;
+$table-heading-color: white;
+$table-background-color: transparent;
 $page-header: 'Oswald', sans-serif;
 $s-static: 'Oswald', sans-serif;
 $home-title: "Arial", sans-serif;
