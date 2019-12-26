@@ -20,11 +20,11 @@ $green: #669933;
 // Update the sans-serif font family
 $family-sans-serif: "Oswald", "Helvetica", "Arial", sans-serif;
 $is-family-secondary: "Arial", sans-serif;
-
-
+$fa-font-path: "../webfonts";
 //Measurements
 
 $navbar-item-padding: 35px;
+$picon-size: 5em;
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $green;
@@ -32,10 +32,12 @@ $secondary: $red;
 $link: $green;
 $button-background-color: $green;
 $button-color: $white;
+$scheme-invert: $black;
+$primary-invert: $black;
 
-$primary-invert: $pink-invert;
 $navbar-item-hover-background-color: $green;
 $box-background-color: black;
+
 $portfolio: $red;
 $box-color: white;
 $box-radius: 1px;
