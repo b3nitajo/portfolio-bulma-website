@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js "></script>
+    <script type="text/javascript" src="/javascript/index.js"></script>
     <title>Benita Jones Portfolio</title>
     <link rel="stylesheet" href="../css/main.css">
    <style>
@@ -11,6 +13,9 @@
       .box {
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.502);
       } 
+      .box:hover{
+        opacity: 0.2;
+      }
     </style>
   </head>
   <body>
@@ -74,10 +79,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="title">
+              <h1 class="title porthead">
                 CHOOSE A PORTFOLIO
               </h1>
-              <h3 class="subtitle">
+              <h3 class="subtitle portsub">
                 (very brief bio...)
               </h3>
             </div>
@@ -122,6 +127,14 @@
         </div>
       </div>
     </section>
+    <div class="section portfolio" style="display:none">
+      <div class="container design-port-sec" style="display:none">
+        <h1 class="design-port-sec">design container</h1>
+      </div>
+      <div class="container tech-port-sec" style="display:none">
+        <h1>tech container</h1>
+      </div>
+    </div>
 
     <footer class="footer has-text-centered">
       <div class="container">
@@ -135,34 +148,7 @@
         </div>
       </div>
     </footer>
-    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js "></script>
-    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
-    <script>
-        $(document).ready(function(){
-
-          $(".design").hover(function(){
-            $(".tech").animate({opacity: "0.2"});
-            $(".design").animate({opacity: "2"});
-          });
-
-          $(".tech").hover(function(){
-            $(".design").animate({opacity: "0.2"});
-            $(".tech").animate({opacity: "2"});
-          });
-
-          $(".design").click(function(){
-            $(".tech").parent().hide();
-            $(".design").parent().removeClass("is-half").addClass("is-full");
-          });
-       
-          $(".tech").click(function(){
-              $(".design").parent().hide();
-              $(".tech").parent().removeClass("is-half").addClass("is-full");
-          });
-
-        });
-
-    </script>
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>  
   </body>
 </html>
