@@ -20,13 +20,13 @@
         background: linear-gradient(90deg, #000, rgb(169, 248, 79), #000);
         background-repeat: no-repeat;
         background-size: 80%;
-        animation: animate 10s linear infinite;
+        animation: animate 10s ease-in-out infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
     }
     @keyframes animate {
         0% {
-            background-position: -500%;
+            background-position: -200%;
         }
         100% {
             background-position: 500%;
@@ -38,26 +38,30 @@
 
   </head>
   <body>
-      <section class="hero is-black is-fullheight">   
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-        <div class="container has-text-centered">
-            <img src="images/nav-logo.png" alt="Logo">
-            <h1 class="title welcome-header">
-            WELCOME TO THE CRAFT
-            </h1>
-        </div>
-        </div> 
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-            <div class="container has-text-centered">       
-                <a class="button is-green has-text-white" href="index.html">
-                    ENTER
-                </a>            
+        <section class="hero is-black is-fullheight">   
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column">
+                        <img src="images/nav-logo.png" alt="Logo">
+                    </div>
+                    <div class="column">
+                        <h1 class="title welcome-header">
+                        WELCOME TO THE CRAFT
+                        </h1>
+                    </div>
+                </div>
+            </div> 
+            <!-- Hero footer: will stick at the bottom -->
+            <div class="hero-foot">
+                <nav class="tabs is-boxed is-fullwidth">
+                    <div class="container has-text-centered">       
+                        <a class="button is-green has-text-white" href="index.html">
+                            ENTER
+                        </a>            
+                    </div>
+                </nav>
             </div>
-        </nav>
-        </div>
         </section>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js "></script>
         <script type="text/javascript" src="lib/main.js"></script>

@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Benita Jones Portfolio</title>
     <link rel="stylesheet" href="../css/main.css">
-    <style>
+   <style>
       @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+      .box {
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.502);
+      } 
     </style>
   </head>
   <body>
@@ -60,7 +63,7 @@
                     </th>
                   </tr>
                 </thead>
-              </tbody><!-- Your table content -->
+              </tbody>
             </table>
           </div>
         </div>
@@ -81,7 +84,7 @@
           </div>
           <div class="columns">
           <div class="column is-half has-text-centered">
-            <div class="box">
+            <div class="box tech">
               <div class="content">
                 <h5 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
                     TECHFOLIO
@@ -91,51 +94,75 @@
                 </p>
               <div class="columns has-text-centered">
                 <div class="column">
-                        <a>    
-                            <i class="fas fa-laptop-code has-text-white title is-1"></i>
-                        </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-     
-
-      <div class="column is-half has-text-centered">
-          <div class="box is-black">
-            <div class="content">
-              <h5 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
-                ARTFOLIO
-              </h5>
-              <p class="has-text-white">
-                  View print and branded merchandise designs created for various clients.  
-              </p>
-              <div class="columns has-text-centered">
-                <div class="column">
-                  <a>
-                    <i class="far fa-newspaper has-text-white title is-1"></i>
+                  <a>    
+                      <i class="fas fa-laptop-code has-text-white title is-1"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+      <div class="column is-half has-text-centered">
+        <div class="box design">
+          <div class="content">
+            <h5 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+              ARTFOLIO
+            </h5>
+            <p class="has-text-white">
+                View print and branded merchandise designs created for various clients.  
+            </p>
+            <div class="columns has-text-centered">
+              <div class="column">
+                <a>
+                  <i class="far fa-newspaper has-text-white title is-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="footer has-text-centered">
       <div class="container">
         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <h4>
-              Cpoyright Benita Jones
-            </h4>              
-              <img src="../images/cultivating-footer.png" alt="Made by Cultivating" width="128" height="24">
+          <div class="column is-8-desktop is-offset-2-desktop">         
+              <img src="../images/cultivating-footer.png" alt="Cultivating Craft Logo" width="128" height="24">
+              <h4>
+                  © 2020 Benita Jones All Rights Reserved
+              </h4>     
           </div>
         </div>
       </div>
     </footer>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js "></script>
     <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
-    <script type="text/javascript" src="../lib/main.js"></script>
+    <script>
+        $(document).ready(function(){
+
+          $(".design").hover(function(){
+            $(".tech").animate({opacity: "0.2"});
+            $(".design").animate({opacity: "2"});
+          });
+
+          $(".tech").hover(function(){
+            $(".design").animate({opacity: "0.2"});
+            $(".tech").animate({opacity: "2"});
+          });
+
+          $(".design").click(function(){
+            $(".tech").parent().hide();
+            $(".design").parent().removeClass("is-half").addClass("is-full");
+          });
+       
+          $(".tech").click(function(){
+              $(".design").parent().hide();
+              $(".tech").parent().removeClass("is-half").addClass("is-full");
+          });
+
+        });
+
+    </script>
   </body>
 </html>
