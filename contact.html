@@ -13,17 +13,23 @@
       @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
       .box {
-      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.502);
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.502);
+        transition: width 1s, height 1s;
       } 
-
-      .button:hover{
-        background-color: black;
+      .cardbox:hover{
+        height: 115%;
+        width: 102%;
       }
+
+      .formbox:hover{
+        height: 115%;
+        width: 102%;
+      }
+
     </style>
   </head>
   <body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-      <a class="navbar-item spacer" href=""> </a>
       <div class="navbar-brand">
         <a class="navbar-item logo" href="home.html">
           <img src="images/nav-logo.png" width="112" height="28">
@@ -48,7 +54,6 @@
           <a class="navbar-item is-tab is-active" href="">
             Contact
           </a>
-          <a class="navbar-item spacer" href=""> </a>
         </div>       
       </div>
     </nav>
@@ -83,50 +88,30 @@
           <div class="columns">
             <div class="column">
               <h1 class="title">
-                CONTACT PAGE
+                CONTACT
               </h1>
               <h3 class="subtitle">
-                (contact form and info...)
+                (scan QR code, view business card or fill out form...)
               </h3>
             </div>
           </div>
           <div class="columns">
           <div class="column is-half has-text-centered">
-            <div class="box">
+            <div class="box cardbox">
               <div class="content">
-                <h5 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
-                    CONTACT ME
-                </h5>
-                <p class="has-text-white">
-                    Click to view my contact information. 
-                </p>
-              <div class="columns has-text-centered">
-                <div class="column">
-                  <a class="button">    
-                      BUSINESS CARD
-                  </a>
-                </div>
-              </div>
+                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                    VIEW CARD
+                </h1>
             </div>
           </div>
         </div>
      
       <div class="column is-half has-text-centered">
-          <div class="box is-black">
+          <div class="box formbox">
             <div class="content">
-              <h5 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
-                CONTACT YOU
-              </h5>
-              <p class="has-text-white">
-                  Click to fill out contact form. I'll get back to you soon!  
-              </p>
-              <div class="columns has-text-centered">
-                <div class="column">
-                  <a class="button">
-                    CONTACT FORM
-                  </a>
-                </div>
-              </div>
+              <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                SUBMIT FORM
+              </h1>
             </div>
           </div>
         </div>
@@ -136,11 +121,17 @@
     <footer class="footer has-text-centered">
       <div class="container">
         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">            
-              <img src="images/cultivating-footer.png" alt="Cultivating Craft Logo" width="128" height="24">
-              <h4>
-                  © 2020 Benita Jones All Rights Reserved
-              </h4>  
+          <div class="column">         
+            <a href="../home.html">HOME</a>
+            |
+            <a href="/portfolio/index.html">THE CRAFT</a>
+            |
+            <a href=".">CONTACT</a>
+            <br>
+            <img src="../images/cultivating-footer.png" alt="Cultivating Craft Logo" width="128" height="24">
+            <h4>
+                © 2020 Cultivating Craft LLC All Rights Reserved
+            </h4>       
           </div>
         </div>
       </div>
