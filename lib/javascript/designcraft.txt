@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<craft>
+    <stationery>     
+        <title lang="en">Titans Business Card</title>
+        <image>stationery_bc_titans.png</image>
+        <description>Card description goes here</desciption>
+    </stationery>
+    <stationery>
+        <title lang="en">Game Day Tickets</title>
+        <image>stationery_tickets_titans.png</image>
+        <description>Ticket description goes here</desciption>
+    </stationery>  
+</craft>
