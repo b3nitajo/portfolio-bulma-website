@@ -140,7 +140,7 @@
         <h1 class="title">Graphic Design</h1>
         <div class="columns">
           <div class="column">
-            <div class="box design" onclick="refs.modalEdicion.open()">
+            <div class="box design">
               <div class="content">
                 <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
                   STATIONERY
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="box design">
+            <div class="box design afolio" id="logos">
               <div class="content">
                 <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
                   LOGOS
@@ -289,34 +289,23 @@
         </div>
       </div>
       <!-- MODAL EXAMPLE -->
-      <div class="modal" id="modalEdicion">
-        <div onclick="refs.modalEdicion.close()" class="modal-background"></div>
-        <!-- <div class="modal-content">
-            <p class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
-            </p>
-        </div> -->
+      <div class="modal" id="designModal">
+        <div onclick="refs.designModal.close()" class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head">
-            <p class="modal-card-title">Stationery</p>
-            <button class="delete" aria-label="close" onclick="refs.modalEdicion.close()"></button>
+            <p class="modal-card-title"></p>
+            <button class="delete" aria-label="close" onclick="refs.designModal.close()"></button>
           </header>
           <section class="modal-card-body">
+            <div class="designmodalbody">
+
+            </div>
             <!-- Content ... -->
-            <div class="subtitle">Business Card</div>
-            <img src="../images/stationery_bc_titans.png" alt="">
-            <p>
-              A simple card created for the Kansas City Titans, 
-              a women's full tackle football team.
-            </p>
+            <!-- <div class="subtitle desassetname"></div>
+            <img class="desassetimage" src="" alt="">
+            <p class="desassetdescription"></p> -->
             <br>
-            <br>
-            <div class="subtitle">Admission Ticket</div>
-            <img src="../images/stationery_tickets_titans.png" alt="">
-            <p>A general admission ticket created for home and playoff games. 
-            </p>
           </section>
-        <!-- <button class="modal-close is-large" aria-label="close" onclick="refs.modalEdicion.close()"></button> -->
         </div>
 
     </footer>

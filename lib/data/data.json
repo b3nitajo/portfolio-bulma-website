@@ -2,5 +2,9 @@
     "logos":[
         {"title": "Business Card", "image": "../images/design/stationery_bc_titans.png", "description": "card description goes here"},
         {"title": "Event Tickets", "image": "../images/design/stationery_tickets_titans.png", "description": "ticket description goes here"}
+    ],
+    "stationery":[
+        {"title": "Business Card", "image": "../images/design/stationery_bc_titans.png", "description": "card description goes here"},
+        {"title": "Event Tickets", "image": "../images/design/stationery_tickets_titans.png", "description": "ticket description goes here"}
     ]
 }
