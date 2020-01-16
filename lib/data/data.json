@@ -6,6 +6,7 @@
         {"title": "Youth Football", "image": "../images/design/flyers_westelite.png", "description": "West Elite description goes here"}
     ],
     "logos":[
+        {"title": "Cultivating Craft", "image": "../images/design/logos_cultivating.png", "description": "Cultivate description goes here"},
         {"title": "Kansas City Titans", "image": "../images/design/logos_titans.png", "description": "Logo 1 description goes here"},
         {"title": "Morghan on the Beat", "image": "../images/design/logos_mOnTheBeat.png", "description": "Morghan on the Beat description goes here"},
         {"title": "Critical Change", "image": "../images/design/logos_criticalChange.png", "description": "Critical description goes here"},
@@ -17,7 +18,7 @@
     ],
     "cards":[
         {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
-        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "ticket description goes here"}
+        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
     ]
 
 }
