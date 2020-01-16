@@ -1,19 +1,23 @@
 {
     "flyers":[
-        {"title": "Vet Night", "image": "../images/design/flyers_titans_vetnight.png", "description": "Vet Night description goes here"},
         {"title": "Mini Camp", "image": "../images/design/flyers_titans_minicamp.png", "description": "Mini Camp description goes here"},
+        {"title": "Vet Night", "image": "../images/design/flyers_titans_vetnight.png", "description": "Vet Night description goes here"},
         {"title": "Game Night", "image": "../images/design/flyers_titans_gamenight.png", "description": "Game night description goes here"},
         {"title": "Youth Football", "image": "../images/design/flyers_westelite.png", "description": "West Elite description goes here"}
     ],
     "logos":[
-        {"title": "Critical Change", "image": "../images/design/logos_criticalChange.png", "description": "Critical description goes here"},
-        {"title": "Fuel Me Now", "image": "../images/design/logos_fuelMeNow.png", "description": "Fuel me description goes here"},
-        {"title": "Morghan on the Beat", "image": "../images/design/logos_mOnTheBeat.png", "description": "Morghan on the Beat description goes here"},
         {"title": "Kansas City Titans", "image": "../images/design/logos_titans.png", "description": "Logo 1 description goes here"},
-        {"title": "Titans #2", "image": "../images/design/logos_titans2.png", "description": "Logo 2 description goes here"}
+        {"title": "Morghan on the Beat", "image": "../images/design/logos_mOnTheBeat.png", "description": "Morghan on the Beat description goes here"},
+        {"title": "Critical Change", "image": "../images/design/logos_criticalChange.png", "description": "Critical description goes here"},
+        {"title": "Fuel Me Now", "image": "../images/design/logos_fuelMeNow.png", "description": "Fuel me description goes here"}
     ],
     "stationery":[
         {"title": "Business Card", "image": "../images/design/stationery_bc_titans.png", "description": "card description goes here"},
         {"title": "Event Tickets", "image": "../images/design/stationery_tickets_titans.png", "description": "ticket description goes here"}
+    ],
+    "cards":[
+        {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
+        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "ticket description goes here"}
     ]
+
 }

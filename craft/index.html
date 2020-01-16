@@ -4,29 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="../lib/javascript/index.js"></script>
-    
-    <title>Benita Jones Portfolio</title>
-    <link rel="stylesheet" href="../css/main.css">
-   <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <style>
       @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
       .box {
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.502);
       transition: width 1s, height 1s;
       } 
-
       .tech:hover{
         height: 110%;
         width: 102%;
       }
-
       .design:hover{
         height: 110%;
         width: 102%;
       }
-
     </style>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../lib/javascript/index.js"></script> 
+    <title>Benita Jones Portfolio</title>
+    <link rel="stylesheet" href="../css/main.css">
+   
   </head>
   <body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
@@ -171,19 +170,19 @@
 
         <div class="columns">
           <div class="column">
-            <div class="box design">
+            <div class="box design afolio" id="cards">
               <div class="content">
                 <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
-                  POSTCARDS
+                  CARDS
                 </h1>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="box design">
+            <div class="box designs" id="apparel">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   APPAREL
                 </h1>
               </div>
@@ -191,9 +190,9 @@
           </div>
 
           <div class="column">
-            <div class="box design">
+            <div class="box design" id="photography">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   PHOTOGRAPHY
                 </h1>
               </div>
@@ -216,7 +215,7 @@
           <div class="column">
             <div class="box tech">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   DEJA BREW
                 </h1>
               </div>
@@ -226,7 +225,7 @@
           <div class="column">
             <div class="box tech">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   FUEL ME NOW
                 </h1>
               </div>
@@ -238,7 +237,7 @@
           <div class="column">
             <div class="box tech">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   TRIVIA
                 </h1>
               </div>
@@ -248,7 +247,7 @@
           <div class="column">
             <div class="box tech">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   BE-MAZON
                 </h1>
               </div>
@@ -258,7 +257,7 @@
           <div class="column">
             <div class="box tech">
               <div class="content">
-                <h1 class="title is-uppercase has-text-centered has-text-white has-text-weight-light">
+                <h1 class="title comingsoon is-uppercase has-text-centered has-text-white has-text-weight-light">
                   GIFT EXCHANGE
                 </h1>
               </div>
@@ -297,8 +296,8 @@
             <button class="delete" aria-label="close" onclick="refs.designModal.close()"></button>
           </header>
           <section class="modal-card-body">
-            <div class="columns is-centered">
-              <div class="column is-bordered designmodalbody">
+            <div class="columns">
+              <div id ="designmodalbody" class="column">
 
               </div>
             </div>
@@ -311,6 +310,7 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>  
   </body>
 </html>
