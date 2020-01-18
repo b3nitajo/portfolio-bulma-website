@@ -19,6 +19,10 @@
     "cards":[
         {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
         {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
+    ],
+    "cultivate giphy":[
+        {"title": "Cultivate Giphy", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
+        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
     ]
 
 }
