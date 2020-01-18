@@ -20,9 +20,23 @@
         {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
         {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
     ],
-    "cultivate giphy":[
-        {"title": "Cultivate Giphy", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
-        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
+    "giphy":[
+        {"title": "Cultivate Giphy", "image": "../images/tech/tech_giphy.png", "description": "Giphy description goes here"}
+    ],
+    "dejabrew":[
+        {"title": "Deja Brew", "image": "../images/tech/tech_dejabrew.png", "description": "Deja Brew description goes here"}
+     ],
+      "savensearch":[
+        {"title": "Save N Search", "image": "../images/tech/tech_savensearch.png", "description": "Save N Search description goes here"}
+     ],
+      "bjtattoo":[     
+        {"title": "BJ's Tattoo Haven", "image": "../images/tech/tech_bjtattoo.png", "description": "Tattoo Haven description goes here"}  
+    ],
+      "fuelmenow":[   
+        {"title": "Fuel Me Now", "image": "../images/tech/tech_fuelmenow.png", "description": "Fuel Me Now description goes here"}
+      ],
+      "giftexchange":[    
+        {"title": "Gift Exhange", "image": "../images/tech/tech_giftexchange.png", "description": "Gift Exchange description goes here"}
     ]
 
 }
