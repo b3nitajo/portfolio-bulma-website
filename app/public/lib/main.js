@@ -12,7 +12,7 @@ var refs = {
   }
 };
 
-$(Document).ready(function () {
+$(document).ready(function () {
 
   // navbar burger
   $(".navbar-burger").click(function () {
@@ -96,8 +96,9 @@ $(Document).ready(function () {
       }
       refs.designModal.open();
     };
+   
+    xhr.open('GET', 'data/data.json', true);
 
-    xhr.open('GET', '../lib/data/data.json', true);
     xhr.send(null);
   });
 });
