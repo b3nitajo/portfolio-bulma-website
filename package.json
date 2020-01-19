@@ -1,7 +1,7 @@
 {
   "name": "portfolio-bulma-website",
   "description": "Showcase of portfolio and cultivating craft organization",
-  "main": "test.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/b3nitajo/portfolio-bulma-website.git"
@@ -14,14 +14,14 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-build": "node-sass app/_sass/main.scss app/public/css/main.css",
     "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output app/css/main.css app/public/css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy && npm run js-build",
-    "js-build": "babel _javascript --out-dir lib",
+    "js-build": "babel app/_javascript/main.js --out-dir app/public/lib/main.js",
     "js-watch": "npm run js-build -- --watch",
-    "start": "npm-run-all --parallel css-watch js-watch"
+    "start": "node server.js --parallel css-watch js-watch"
   },
   "_from": "bulma-start",
   "_id": "bulma-start@0.0.3",
@@ -46,7 +46,7 @@
   "_resolved": "https://registry.npmjs.org/bulma-start/-/bulma-start-0.0.3.tgz",
   "_shasum": "cca27a954506fe59df137ea676045173aac54894",
   "_spec": "bulma-start",
-  "_where": "/Users/jthomas/Desktop",
+  "_where": "/Users/bjones/Desktop",
   "deprecated": false,
   "devDependencies": {
     "autoprefixer": "^9.4.7",
@@ -65,6 +65,8 @@
     "start"
   ],
   "dependencies": {
-    "bulma-carousel": "^4.0.4"
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }

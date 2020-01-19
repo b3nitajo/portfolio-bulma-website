@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="lib/javascript/index.js"></script>
+    <script type="text/javascript" src="lib/main.js"></script>
     
     <title>Benita Jones Portfolio</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <style>
       @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
       
@@ -24,8 +24,8 @@
   <body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item logo" href="home.html">
-          <img src="images/nav-logo.png" width="112" height="28">
+        <a class="navbar-item logo" href="/home">
+          <img src="/images/nav-logo.png" width="112" height="28">
         </a>  
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
@@ -35,16 +35,13 @@
       </div>    
       <div id="topnav-menu" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item is-tab" href="index.html">
-            Welcome
-          </a>
-          <a class="navbar-item is-tab is-active" href="">
+          <a class="navbar-item is-tab is-active" href="/home">
             Home
           </a>
-          <a class="navbar-item is-tab" href="craft/index.html">
+          <a class="navbar-item is-tab" href="/craft">
             The Craft
           </a>
-          <a class="navbar-item is-tab" href="contact.html">
+          <a class="navbar-item is-tab" href="/contact">
             Contact
           </a>
         </div>       
@@ -192,7 +189,7 @@
             </p>
             <div class="columns has-text-centered">
               <div class="column">
-                <a class="button" href="contact.html">
+                <a class="button" href="/contact">
                   LET'S CREATE
                 </a>
               </div>
@@ -268,7 +265,7 @@
                     </p>
                     <div class="columns has-text-centered">
                       <div class="column">
-                        <a class="button" href="craft/index.html">
+                        <a class="button" href="/craft">
                           GO TO THE CRAFT
                         </a>
                       </div>
@@ -285,11 +282,11 @@
       <div class="container">
         <div class="columns">
           <div class="column">         
-            <a href="home.html">HOME</a>
+            <a href="/home">HOME</a>
             |
-            <a href="craft/index.html">THE CRAFT</a>
+            <a href="/craft">THE CRAFT</a>
             |
-            <a href="contact.html">CONTACT</a>
+            <a href="/contact">CONTACT</a>
             <br>
             <img src="images/cultivating-footer.png" alt="Cultivating Craft Logo" width="128" height="24">
             <h4>
