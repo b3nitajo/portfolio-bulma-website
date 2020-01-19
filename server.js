@@ -21,20 +21,19 @@ var PORT = process.env.PORT || 8080;
 // The code below is pretty standard.
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+
 // ================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
-var apiroute = require("./app/routing/apiRoutes");
-app.use(apiroute);
-var htmlroute = require("./app/routing/htmlRoutes");
-app.use(htmlroute);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 // ==============================================================================
 // LISTENER
 // The below code effectively "starts" our server
 // ==============================================================================
+app.use(express.static("public"));
 
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
