@@ -1,4 +1,4 @@
-
+"use-strict"
 var refs = {
   designModal: {
     open: function open() {
@@ -102,41 +102,3 @@ $(document).ready(function () {
     xhr.send(null);
   });
 });
-
-/*
-$(".afolio").click(function () { 
-    var designCategory = $(this).attr("id");
-    var xhr = new XMLHttpRequest();
-   
-    xhr.onload = function() {
-      if(xhr.status === 200){       
-        responseObject = JSON.parse(xhr.responseText);
-        console.log(responseObject[designCategory]);
-          
-       $(".modal-card-title").text(designCategory.toUpperCase());
-        for (var i=0; i < responseObject[designCategory].length; i++){
-          // var assetTitle = $("<div>");  
-          // var assetDes = $("<div>");
-          // assetTitle.addClass("desassettitle").text(responseObject[designCategory][i].title);
-          // assetDes.addClass("desassetdescription").text(responseObject[designCategory][i].description);
-          var assetImage = $("<img>");
-          assetImage.attr("src",responseObject[designCategory][i].image);
-          var item = $("<div>");
-          item.attr("id","item-"+[i+1]);
-          item.append(assetImage);
-          console.log(item);
-
-          $("#designmodalbody").append(item);
-          console.log("Passed");
-        } 
-        
-       
-      }  
-      refs.designModal.open(); 
-    };
-
-  xhr.open('GET', '../lib/data/data.json', true);
-  xhr.send(null);
-  });
-});
-*/
