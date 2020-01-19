@@ -1,3 +1,4 @@
+
 var refs = {
   designModal: {
     open: function open() {
@@ -11,7 +12,7 @@ var refs = {
   }
 };
 
-$(document).ready(function () {
+$(Document).ready(function () {
 
   // navbar burger
   $(".navbar-burger").click(function () {

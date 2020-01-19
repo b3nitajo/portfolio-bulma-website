@@ -1,15 +1,16 @@
+"use-strict"
 // build modal ref
 var refs = {
-    designModal: {
-      open: function() { $("#designModal").toggleClass("is-active");
-      },
-      close:function() { 
-        $("#designModal").toggleClass("is-active");
-        $("#designmodalbody").empty();
-        $(".modal-card-title").text("");                 
-      }
+  designModal: {
+    open: function() { $("#designModal").toggleClass("is-active");
+    },
+    close:function() { 
+      $("#designModal").toggleClass("is-active");
+      $("#designmodalbody").empty();
+      $(".modal-card-title").text("");                 
     }
-  };
+  }
+};
   
   $(document).ready(function () {
     
