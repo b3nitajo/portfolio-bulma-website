@@ -21,16 +21,16 @@
         {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
     ],
     "giphy":[
-        {"title": "Cultivate Giphy", "image": "../images/tech/tech_giphy.png", "description": "Giphy description goes here"}
+        {"title": "Cultivate Giphy", "image": "../images/tech/tech_giphy.png", "description": "Cultivate Giphy is gify search engine targeting gif lovers. This app is used to search the Giphy database by topic and view different gifs related to that topic!", "appurl":"https://b3nitajo.github.io/GifTastic/"}
     ],
     "dejabrew":[
-        {"title": "Deja Brew", "image": "../images/tech/tech_dejabrew.png", "description": "Deja Brew description goes here"}
+        {"title": "Deja Brew", "image": "../images/tech/tech_dejabrew.png", "description": "Deja Brew is a web application targeting coffee lovers. This app is used to bring everything coffee to your finger tips. Users can learn more about the history of coffee, view coffee brewing methods, search for local coffee shop ratings and much more!", "appurl":"https://deja-brew.herokuapp.com"}
      ],
       "savensearch":[
-        {"title": "Save N Search", "image": "../images/tech/tech_savensearch.png", "description": "Save N Search description goes here"}
+        {"title": "Save N Search", "image": "../images/tech/tech_savensearch.png", "description": "Save N Search is a web application designed for users who love to read. Search for your next book club idea or keep track of your own must reads!", "appurl":"https://savensearch-books.herokuapp.com/"}
      ],
       "bjtattoo":[     
-        {"title": "BJ's Tattoo Haven", "image": "../images/tech/tech_bjtattoo.png", "description": "Tattoo Haven description goes here"}  
+        {"title": "BJ's Tattoo Haven", "image": "../images/tech/tech_bjtattoo.png", "description": "Tattoo Haven description goes here", "appurl":"https://bjs-tattoo-haven.herokuapp.com/"}  
     ],
       "fuelmenow":[   
         {"title": "Fuel Me Now", "image": "../images/tech/tech_fuelmenow.png", "description": "Fuel Me Now description goes here"}
