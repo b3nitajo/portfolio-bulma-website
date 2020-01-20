@@ -103,4 +103,16 @@ $(document).ready(function () {
 
     xhr.send(null);
   });
+
+  //CONTACT PAGE
+  $(".cardbox").click(function () {
+    $(".contact-form").hide();
+    $(".business-card").show();    
+  });
+
+
+  $(".formbox").click(function () {
+    $(".business-card").hide(); 
+    $(".contact-form").show();
+  });
 });
