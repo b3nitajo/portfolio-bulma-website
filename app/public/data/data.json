@@ -36,7 +36,7 @@
         {"title": "Fuel Me Now", "image": "../images/tech/tech_fuelmenow.png", "description": "Fuel Me Now description goes here"}
       ],
       "giftexchange":[    
-        {"title": "Gift Exhange", "image": "../images/tech/tech_giftexchange.png", "description": "Gift Exchange description goes here"}
+        {"title": "Gift Exhange", "image": "../images/tech/tech_giftexchange.png", "description": "Gift Exchange description goes here", "appurl":"https://b3nitajo.github.io/giftExchange/"}
     ]
 
 }

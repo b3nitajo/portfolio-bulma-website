@@ -87,7 +87,9 @@ $(document).ready(function () {
             techAssetImage.attr("src", responseObject[designCategory][i].image);
             var techItem = $("<div>");
             techItem.attr("id", "item-" + [i + 1]);
-            techItem.append(techAssetImage, [techTssetDes]);
+            var appButton = $("<a>");
+            appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App!")
+            techItem.append(techAssetImage, [techTssetDes, appButton]);
             itemReturnVariable = techItem;
           }
           $("#designmodalbody").append(itemReturnVariable);
