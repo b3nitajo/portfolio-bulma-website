@@ -20,6 +20,9 @@
         {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
         {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
     ],
+    "trivia":[
+        {"title": "Trivia Game", "image": "../images/tech/tech_trivia.png", "description": "Test your Disney knowledge playing this 10 question trivia game. You'll have 15 seconds to answer each question.", "appurl":"https://b3nitajo.github.io/TriviaGame/"}
+    ],
     "giphy":[
         {"title": "Cultivate Giphy", "image": "../images/tech/tech_giphy.png", "description": "Cultivate Giphy is gify search engine targeting gif lovers. This app is used to search the Giphy database by topic and view different gifs related to that topic!", "appurl":"https://b3nitajo.github.io/GifTastic/"}
     ],
