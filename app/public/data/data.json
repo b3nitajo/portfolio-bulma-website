@@ -22,37 +22,37 @@
     ],
     "trivia":[
         {"title": "Trivia Game", "image": "../images/tech/tech_trivia.png", "description": "Test your Disney knowledge playing this 10 question trivia game. You'll have 15 seconds to answer each question.", "appurl":"https://b3nitajo.github.io/TriviaGame/",
-        "languages": "HTML5|Bootstrap.css|JQuery", "gitlink": "https://b3nitajo.github.io/TriviaGame/"
+        "languages": "HTML5|Bootstrap.css|JQuery", "gitlink": "https://b3nitajo.github.io/TriviaGame/blob/master/README.md"
         }
     ],
     "bemazon":[
         {"title": "Be-Mazon", "image": "../images/tech/tech_bemazon.png", "description": "BeMazon is an server side storefront built using node.js, inquirer and mySQL database. This app will take in orders from customers and deplete stock from the store's inventory.", "appurl":"https://github.com/b3nitajo/beMazon/blob/master/README.md",
-        "languages": "Node.js|Inquirer|mySQL", "gitlink": "https://b3nitajo.github.io/beMazon/"
+        "languages": "Node.js|Inquirer|mySQL", "gitlink": "https://github.com/b3nitajo/beMazon/blob/master/README.md"
         }
     ],
     "giphy":[
         {"title": "Cultivate Giphy", "image": "../images/tech/tech_giphy.png", "description": "Cultivate Giphy is an app that calls the GIPHY API and uses JavaScript and jQuery to make a dynamic webpage.", "appurl":"https://b3nitajo.github.io/GifTastic/",
-        "languages": "HTML5|Bootstrap.css|JQuery", "gitlink": "https://b3nitajo.github.io/GifTastic/"
+        "languages": "HTML5|Bootstrap.css|JQuery", "gitlink": "https://github.com/b3nitajo/GifTastic/blob/master/README.md"
         }
     ],
     "dejabrew":[
         {"title": "Deja Brew", "image": "../images/tech/tech_dejabrew.png", "description": "Deja Brew is a web application targeting coffee lovers. This app is used to bring everything coffee to your finger tips. Users can learn more about the history of coffee, view coffee brewing methods, search for local coffee shop ratings and much more!", "appurl":"https://deja-brew.herokuapp.com",
-        "languages": "Materalize.css|Express.js|React.js|Node.js|MongoDB", "gitlink": "https://b3nitajo.github.io/deja-brew/"
+        "languages": "Materalize.css|Express.js|React.js|Node.js|MongoDB", "gitlink": "https://b3nitajo.github.io/deja-brew/blob/master/README.md"
         }
     ],
       "savensearch":[
         {"title": "Save N Search", "image": "../images/tech/tech_savensearch.png", "description": "Save N Search is a React-based Google Books Search app. This app is designed for users who love to read. Search for your next book club idea or keep track of your own must reads!", "appurl":"https://savensearch-books.herokuapp.com/",
-        "languages": "Bootstrap.css|Express.js|React.js|Node.js|MongoDB", "gitlink": "https://b3nitajo.github.io/google-bookSearch/"
+        "languages": "Bootstrap.css|Express.js|React.js|Node.js|MongoDB", "gitlink": "https://b3nitajo.github.io/google-bookSearch/blob/master/README.md"
         }
     ],
       "bjtattoo":[     
         {"title": "BJ's Tattoo Haven", "image": "../images/tech/tech_bjtattoo.png", "description": "BJ's Tattoo Haven is a full-stack web application template targeting small businesses in need for a scheduling and showcase application.", "appurl":"https://bjs-tattoo-haven.herokuapp.com/",
-        "languages": "Bulma.css|Express.js|Handlbars|Node.js|Sequelize", "gitlink": "https://b3nitajo.github.io/tattoo-haven/"
+        "languages": "Bulma.css|Express.js|Handlbars|Node.js|Sequelize", "gitlink": "https://b3nitajo.github.io/tattoo-haven/blob/master/README.md"
         }
     ],
       "fuelmenow":[   
         {"title": "Fuel Me Now", "image": "../images/tech/tech_fuelmenow.png", "description": "Fuel Me Now is a web application that allows users to order gasoline for delivery on the go. Need to rush to your next appointment but low on gas? Don't worry, we'll come Fuel you up!",
-        "languages": "Bootstrap.css|Firebase|Node.js", "gitlink": "https://b3nitajo.github.io/Fuel-Me-Now/"
+        "languages": "Bootstrap.css|Firebase|Node.js", "gitlink": "https://b3nitajo.github.io/Fuel-Me-Now/blob/master/README.md"
         }
     ]
 

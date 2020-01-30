@@ -84,9 +84,9 @@ $(document).ready(function () {
             var techItem = $("<div>");
             techItem.attr("id", "item-" + [i + 1]);
             var appButton = $("<a>");
-            appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App!");
+            appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App");
             var gitIcon = $("<a>");
-            gitIcon.addClass("button").attr("href",responseObject[designCategory][i].gitlink).attr("target", "_blank").text("View Github ReadMe");
+            gitIcon.addClass("button").attr("href",responseObject[designCategory][i].gitlink).attr("target", "_blank").text("View Github");
             techItem.append(techAssetImage, [techTssetDes, appButton, gitIcon]);
             itemReturnVariable = techItem;
           }
