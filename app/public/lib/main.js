@@ -55,14 +55,12 @@ $(document).ready(function () {
   $(".portcat").click(function () {
     var portfolioSection = $(this).hasClass("design");
     var isComingSoonCat = $(this).hasClass("comingsoon");
-    console.log("portfolio section has class text" + portfolioSection);
     var designCategory = $(this).attr("id");
     var xhr = new XMLHttpRequest();
 
     xhr.onload = function () {
       if (xhr.status === 200) {
         responseObject = JSON.parse(xhr.responseText);
-        console.log(responseObject[designCategory]);
         var itemReturnVariable;
 
         for (var i = 0; i < responseObject[designCategory].length; i++) {
@@ -76,11 +74,9 @@ $(document).ready(function () {
             var designItem = $("<div>");
             designItem.attr("id", "item-" + [i + 1]);
             designItem.append(designAssetImage);
-            console.log(designItem);
             itemReturnVariable = designItem;
           } else {
             $(".modal-card-title").text(responseObject[designCategory][i].title.toUpperCase());
-            console.log("tech modal block");
             var techTssetDes = $("<div>");
             var techAssetImage = $("<img>");
             techTssetDes.text(responseObject[designCategory][i].description);
@@ -88,12 +84,14 @@ $(document).ready(function () {
             var techItem = $("<div>");
             techItem.attr("id", "item-" + [i + 1]);
             var appButton = $("<a>");
-            appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App!")
+            appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App!");
+            var gitIcon = $("<a>");
+            gitIcon.addClass("button").attr("href",responseObject[designCategory][i].gitlink).attr("target", "_blank").text("View Github ReadMe");
+            appButton.append(gitIcon);
             techItem.append(techAssetImage, [techTssetDes, appButton]);
             itemReturnVariable = techItem;
           }
           $("#designmodalbody").append(itemReturnVariable);
-          console.log("Design Section Category");
         }
       }
       refs.designModal.open();
