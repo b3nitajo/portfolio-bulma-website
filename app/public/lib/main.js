@@ -87,8 +87,7 @@ $(document).ready(function () {
             appButton.addClass("button").attr("href",responseObject[designCategory][i].appurl).attr("target", "_blank").text("View App!");
             var gitIcon = $("<a>");
             gitIcon.addClass("button").attr("href",responseObject[designCategory][i].gitlink).attr("target", "_blank").text("View Github ReadMe");
-            appButton.append(gitIcon);
-            techItem.append(techAssetImage, [techTssetDes, appButton]);
+            techItem.append(techAssetImage, [techTssetDes, appButton, gitIcon]);
             itemReturnVariable = techItem;
           }
           $("#designmodalbody").append(itemReturnVariable);
