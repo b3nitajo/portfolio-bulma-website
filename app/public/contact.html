@@ -128,13 +128,13 @@
               <div class="field">
                 <label class="label">Name</label>
                 <div class="control">
-                  <input class="input" type="text" placeholder="Enter Your Name">
+                  <input class="input" id="name" type="text" placeholder="Enter Your Name">
                 </div>
               </div>     
               <div class="field">
                 <label class="label">Your Email Address</label>
                 <div class="control has-icons-left has-icons-right">
-                  <input class="input is-danger" type="email" placeholder="Email your email address" value="hello@">
+                  <input class="input is-danger" id="sender_email" type="email" placeholder="Email your email address" value="hello@">
                   <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                   </span>
@@ -148,7 +148,7 @@
               <div class="field">
                 <label class="label">Reason for Contacting</label>
                 <div class="control">
-                  <div class="select">
+                  <div class="select" id="reason">
                     <select>
                       <option>Select dropdown</option>
                       <option>Looking for a Developer!</option>
@@ -162,13 +162,13 @@
               <div class="field">
                 <label class="label">How can I help?</label>
                 <div class="control">
-                  <textarea class="textarea" placeholder="I want an app developed.."></textarea>
+                  <textarea class="textarea" id="message" placeholder="I want an app developed.."></textarea>
                 </div>
               </div>
               
               <div class="field is-grouped">
                 <div class="control">
-                  <button class="button is-link">Submit</button>
+                  <button class="button is-link" id="contact-submit">Submit</button>
                 </div>
                 <div class="control">
                   <button class="button is-link is-light">Cancel</button>

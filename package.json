@@ -21,7 +21,7 @@
     "deploy": "npm run css-deploy && npm run js-build",
     "js-build": "babel app/_javascript/main.js --out-dir app/public/lib/main.js",
     "js-watch": "npm run js-build -- --watch",
-    "start": "node server.js --parallel css-watch js-watch"
+    "start": "source .env; node server.js --parallel css-watch js-watch"
   },
   "_from": "bulma-start",
   "_id": "bulma-start@0.0.3",
@@ -54,7 +54,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.7.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.1"
   },
@@ -65,7 +65,11 @@
     "start"
   ],
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.3"
   }
 }
