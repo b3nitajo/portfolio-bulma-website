@@ -12,8 +12,10 @@ var refs = {
   }
 };
 
-$(document).ready(function () {
 
+
+$(document).ready(function () {
+ 
   // navbar burger
   $(".navbar-burger").click(function () {
     $(".navbar-burger").toggleClass("is-active");
@@ -115,28 +117,6 @@ $(document).ready(function () {
   });
 });
 
-$("#contact-submit").on("click", function(event) {
-  event.preventDefault();
-  var newMessage = {
-    name: $("#name").val().trim(),
-    sender_email: $("#sender_email").val().trim(),
-    reason: $("#reason").val().trim(),
-    message: $("#message").val().trim(),
-    created_at: moment().format("YYYY-MM-DD HH:mm:ss")
-  };
-  console.log(newMessage);
-  
-  $.post("/api/new", newMessage)
-    .then(function() {
-      alert('Thank you ' + newMessage.name + 'For submitting!');     
-    });
-    $("#name").val("");
-    $("#sender_email").val("");
-    $("#reason").val("");
-    $("#message").val("");
-});
 
-$.get("/api/all", function(data) {
-  console.log(data.name);
-});
+
 
