@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(document).on("submit", "#contact-form", insertContactform);
     
     // var contactforms = [];
-    getContactforms();
+    //getContactforms();
    
     
     function closeForm(senderName) {
