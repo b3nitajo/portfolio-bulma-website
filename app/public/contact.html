@@ -125,7 +125,7 @@
         </div>
     
         <div class="column contact-form" style="display:none">
-          <form id="contact-form">
+          <form id="contact-form" method="POST" action="send">
               <div class="field">
                 <label class="label">Name</label>
                 <div class="control">
@@ -187,6 +187,14 @@
           <p class="modal-card-title has-text-centered"></p>
           <button class="delete" aria-label="close" onclick="refs.contactModal.close()"></button>
         </header>
+        <section class="modal-card-body">
+          <div class="columns">
+            <div id ="contactmodalbody" class="column modal-card-title has-text-centered">
+
+            </div>
+          </div>
+          <br>
+        </section>
       </div>
 
     <footer class="footer has-text-centered">

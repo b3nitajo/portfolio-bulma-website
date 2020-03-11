@@ -45,40 +45,5 @@ router.post("/contactforms/create", function(req, res) {
     });
 });
 
-// put route to devour a burger
-// router.put("/contactforms/update", function(req, res) {
-//   // If we are given a customer, create the customer and give them this devoured burger
-//   if (req.body.name) {
-//     db.Customer.create({
-//       customer: req.body.customer,
-//       BurgerId: req.body.burger_id
-//     })
-//       .then(function(dbCustomer) {
-//         return db.Burger.update({
-//           devoured: true
-//         }, {
-//           where: {
-//             id: req.body.burger_id
-//           }
-//         });
-//       })
-//       .then(function(dbBurger) {
-//         res.json("/");
-//       });
-//   }
-//   // If we aren't given a customer, just update the burger to be devoured
-//   else {
-//     db.Burger.update({
-//       devoured: true
-//     }, {
-//       where: {
-//         id: req.body.burger_id
-//       }
-//     })
-//       .then(function(dbBurger) {
-//         res.json("/");
-//       });
-//   }
-// });
 
 module.exports = router;
