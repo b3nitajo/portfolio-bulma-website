@@ -3,22 +3,43 @@
         {"title": "Mini Camp", "image": "../images/design/flyers_titans_minicamp.png", "description": "Mini Camp description goes here"},
         {"title": "Vet Night", "image": "../images/design/flyers_titans_vetnight.png", "description": "Vet Night description goes here"},
         {"title": "Game Night", "image": "../images/design/flyers_titans_gamenight.png", "description": "Game night description goes here"},
-        {"title": "Youth Football", "image": "../images/design/flyers_westelite.png", "description": "West Elite description goes here"}
+        {"title": "Youth Football", "image": "../images/design/flyers_westelite.png", "description": "West Elite description goes here"},
+        {"title": "Save the Date", "image": "../images/design/flyers_sonia_savethedate.png", "description": "Event description goes here"},
+        {"title": "Poster", "image": "../images/design/flyers_sonia_womb.png", "description": "Event description goes here"},
+        {"title": "Flyer", "image": "../images/design/flyers_blks_gspeaker.png", "description": "Event description goes here"},
+        {"title": "Band Flyer", "image": "../images/design/flyers_band_lnr.png", "description": "Event description goes here"},
+        {"title": "Guest Speaker", "image": "../images/design/flyers_apc_common.png", "description": "Event description goes here"}
     ],
     "logos":[
         {"title": "Cultivating Craft", "image": "../images/design/logos_cultivating.png", "description": "Cultivate description goes here"},
         {"title": "Kansas City Titans", "image": "../images/design/logos_titans.png", "description": "Logo 1 description goes here"},
         {"title": "Morghan on the Beat", "image": "../images/design/logos_mOnTheBeat.png", "description": "Morghan on the Beat description goes here"},
         {"title": "Critical Change", "image": "../images/design/logos_criticalChange.png", "description": "Critical description goes here"},
-        {"title": "Fuel Me Now", "image": "../images/design/logos_fuelMeNow.png", "description": "Fuel me description goes here"}
+        {"title": "Activity and Programming Council", "image": "../images/design/logos_apc.png", "description": "Logo 1 description goes here"},
+        {"title": "Fuel Me Now", "image": "../images/design/logos_fuelMeNow.png", "description": "Fuel me description goes here"},
+        {"title": "Photographer Logo", "image": "../images/design/logos_burns.png", "description": "Fuel me description goes here"},
+        {"title": "Dance Teacher", "image": "../images/design/logos_brass.png", "description": "Fuel me description goes here"},
+        {"title": "UMKC Law Program", "image": "../images/design/logos_umkclaw.png", "description": "Description goes here"},
+        {"title": "Community Organization Logo", "image": "../images/design/logos_hkcf.png", "description": "Description goes here"},
+        {"title": "A Life's Journey Logo", "image": "../images/design/logos_lifesj.png", "description": "Description goes here"},
+        {"title": "AWC Logo", "image": "../images/design/logos_awc.png", "description": "Fuel me description goes here"},
+        {"title": "Band Logo", "image": "../images/design/logos_lnr.png", "description": "Fuel me description goes here"}
+
     ],
     "stationery":[
+        {"title": "Business Card", "image": "../images/design/stationery_bc_cultivatingcraft.png", "description": "card description goes here"},
         {"title": "Business Card", "image": "../images/design/stationery_bc_titans.png", "description": "card description goes here"},
-        {"title": "Event Tickets", "image": "../images/design/stationery_tickets_titans.png", "description": "ticket description goes here"}
+        {"title": "Event Tickets", "image": "../images/design/stationery_tickets_titans.png", "description": "ticket description goes here"},
+        {"title": "Brochure", "image": "../images/design/stationery_br_chairletto.png", "description": "ticket description goes here"},
+        {"title": "Business Card", "image": "../images/design/stationery_bc_chairletto.png", "description": "ticket description goes here"},
+        {"title": "Brochure", "image": "../images/design/stationery_br_umkcbsp.png", "description": "ticket description goes here"}
     ],
     "cards":[
         {"title": "Birthday Card", "image": "../images/design/cards_owlbirthday.png", "description": "card description goes here"},
-        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"}
+        {"title": "Graduation Announcement", "image": "../images/design/cards_gradAnn.png", "description": "announcement description goes here"},
+        {"title": "Wedding Announcement", "image": "../images/design/cards_sarastd.png", "description": "announcement description goes here"},
+        {"title": "Concert All Access Pass", "image": "../images/design/cards_allacess.png", "description": "card description goes here"},
+        {"title": "Graduation Announcement", "image": "../images/design/cards_bookcover.png", "description": "bookcover description goes here"}
     ],
     "trivia":[
         {"title": "Trivia Game", "image": "../images/tech/tech_trivia.png", "description": "Test your Disney knowledge playing this 10 question trivia game. You'll have 15 seconds to answer each question.", "appurl":"https://b3nitajo.github.io/TriviaGame/",
