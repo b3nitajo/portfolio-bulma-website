@@ -11,20 +11,40 @@ var refs = {
   }
 };
 
-$(document).ready(function () {
-  $(document).on("submit", "#contact-form", insertContactform); 
-    function closeForm(senderName) {
-      $("#contact-form").hide();
-      $("#name").val("");
-      $("#sender_email").val("");
-      $("#reason option:selected").text("");
-      $("#message").val("");
-      $(".modal-card-title").text('Your message has been sent!');
-      $("#contactmodalbody").text('Thank you ' + senderName + ". I'll be in touch!");
-      refs.contactModal.open();
-    }
+function validateEmail (contactData) {
+  var email = contactData.emailField;
+  var emailChar = /[@.]/,gi;
+  var results = emailChar.test(email);
+  try{
+    if(results === false) throw "Invalid Email Address"
+  }
+  catch(err){
+    console.log(err);
+  }
+  finally{
+    sendEmail(contactData);
+  };
+}
 
-  function insertContactform(event) {
+function sendEmail (contactForm){
+  $.post("/api/contactforms", contactForm, closeForm(contactForm.name))
+  $.post("/send", contactForm)
+}
+
+function closeForm(senderName) {
+  $("#contact-form").hide();
+  $("#name").val("");
+  $("#sender_email").val("");
+  $("#reason option:selected").text("");
+  $("#message").val("");
+  $(".modal-card-title").text('Your message has been sent!');
+  $("#contactmodalbody").text('Thank you ' + senderName + ". I'll be in touch!");
+  refs.contactModal.open();
+}
+
+$(document).ready(function () {
+  $(document).on("submit", "#contact-form", captureContactform); 
+  function captureContactform(event) {
     event.preventDefault();
     var contactform = {
       name: $("#name").val().trim(),
@@ -32,9 +52,8 @@ $(document).ready(function () {
       reason: $("#reason option:selected").text(),
       message: $("#message").val().trim(),
       complete: false
-    };   
-    $.post("/api/contactforms", contactform, closeForm(contactform.name))
-    $.post("/send", contactform)      
+    }; 
+    validateEmail(contactform);      
   }
   
 });
