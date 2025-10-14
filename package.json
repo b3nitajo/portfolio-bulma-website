@@ -67,7 +67,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "email": "^0.2.6",
-    "express": "^4.17.3",
+    "express": "^4.21.2",
     "moment": "^2.29.4",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
